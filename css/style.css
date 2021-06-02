@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* Barra de Navegación */
+.navbar {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar .logo {
+    width: 145px;
+    height: 108px; 
+    margin-left: 24px;
+}
+
+.navbar ul {
+    margin-top: 130px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+/* Index */
+
+.imagenIndex {
+    width: 100%;
+    height: 663px;
+    object-fit: cover;
+}
+
+.botonComprar {
+    width: 376px;
+    height: 81px;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position: absolute;
+    left: 35%;
+    top: 716px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.botonComprar h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 37px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactoTelefono, .contactoInstagram a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000000;
+}
+
+.contactoTelefono {
+    width: 30%;
+}
+
+.contactoInstagram {
+    width: 45%;
+}
+
+.contactoTelefono img, .contactoInstagram img {
+    width: 50px;
+    height: 50px;   
+}
+
+footer h2 {
+    margin-top: 42px;
+    font-size: 32px;
+    line-height: 37px;
+}
+ footer h3 {
+     margin-top: 12px;
+ }
