@@ -1,0 +1,43 @@
+#contactContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 70vh;
+    flex-grow: 0.5;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    flex-grow: 0.5;
+    margin: 0;
+    padding: 0;
+}
+
+#imgContainer img {
+    margin-bottom: 1vh;
+}
+
+#imgMain {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+#mapContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    flex-grow: 0.5;
+}
+
+#mapContainer iframe {
+    margin-bottom: 1vh;
+}
