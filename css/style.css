@@ -17,13 +17,14 @@ body {
 }
 
 .navbar .logo {
-    width: 145px;
-    height: 108px; 
-    margin-left: 24px;
+    width: 11.5vw;
+    height: 18vh; 
+    margin-left: 10%;
+    object-fit: cover;
 }
 
 .navbar ul {
-    margin-top: 130px;
+    margin-top: 20vh;
     display: flex;
     align-items: flex-end;
     font-size: 18px;
@@ -33,14 +34,14 @@ body {
 /* Index */
 
 .imagenIndex {
-    width: 100%;
-    height: 663px;
+    width: 100vw;
+    height: 90vh;
     object-fit: cover;
 }
 
 .botonComprar {
-    width: 376px;
-    height: 81px;
+    width: 29.5vw;
+    height: 13vh;
     color: #FFFFFF;
     background-color: #000000;
     font-size: 32px;
@@ -48,7 +49,7 @@ body {
     border-radius: 20px;
     position: absolute;
     left: 35%;
-    top: 716px;
+    top: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,15 +93,15 @@ footer {
 }
 
 .contactoTelefono img, .contactoInstagram img {
-    width: 50px;
-    height: 50px;   
+    width: 4vw;
+    height: 8vh;   
 }
 
 footer h2 {
-    margin-top: 42px;
+    margin-top: 3%;
     font-size: 32px;
     line-height: 37px;
 }
  footer h3 {
-     margin-top: 12px;
+     margin-top: 3%;
  }
