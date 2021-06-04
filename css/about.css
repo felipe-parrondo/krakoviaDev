@@ -1,0 +1,27 @@
+.background {
+    width: 100%;
+    height: 50vh;
+    background-color: #000000;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.containerAbout {
+    display: flex;
+}
+
+.imagenAbout {
+    width: 20vw;
+    height: 70vh;
+    object-fit: cover;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+p {
+    color: #FFFFFF;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+}
