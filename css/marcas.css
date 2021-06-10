@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.7em;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contenedorMarcas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    background-color: #000000;
+    height: 60vh;
+    width: 100%;
+    padding: 5%;
+}
+
+.logoMarca {
+    width: 20%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.logoMarca:hover {
+    cursor: pointer;
+}
+
+main h2 {
+    width: 98%;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
