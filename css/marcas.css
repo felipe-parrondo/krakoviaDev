@@ -37,6 +37,20 @@ main h2 {
     text-align: center;
     font-size: 1.1em;
     margin-top: 2%;
-    margin-bottom: 7%;
 }
 
+.imagenes {
+    display: none;
+}
+
+.producto {
+    width: 25%;
+    padding: 2%;
+}
+
+.active {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
