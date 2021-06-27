@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Barra de Navegación */
@@ -70,11 +70,26 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2%;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+    footer {
+        height: 200px;
+        margin-top: 5%;
+    }
+}
+
 .contacto {
     width: 60%;
     display: flex;
     justify-content: space-around;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .contacto {
+        width: 100%;
+    }
 }
 
 .contactoTelefono, .contactoInstagram a {
@@ -97,11 +112,30 @@ footer {
     height: 8vh;   
 }
 
+@media (min-width: 360px) and (max-width: 768px) {
+    .contactoTelefono img, .contactoInstagram img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
 footer h2 {
     margin-top: 3%;
     font-size: 32px;
     line-height: 37px;
 }
+
+@media (min-width: 360px) and (max-width: 768px) {
+    footer h2 {
+        font-size: 20px;
+    }
+}
  footer h3 {
      margin-top: 3%;
  }
+
+ @media (min-width: 360px) and (max-width: 768px) {
+    footer h3 {
+        font-size: 15px;
+    }
+}
