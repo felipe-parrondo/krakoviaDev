@@ -11,6 +11,12 @@ h1 {
     margin-top: 5%;
 }
 
+@media (min-width: 360px) and (max-width: 768px) {
+    h1 {
+        font-size: 1em;
+    }
+}
+
 .contenedorMarcas {
     display: flex;
     justify-content: space-between;
@@ -22,10 +28,24 @@ h1 {
     padding: 5%;
 }
 
+@media (min-width: 360px) and (max-width: 768px) {
+    .contenedorMarcas {
+        background-color: #fff;
+        height: 20vh;
+    }
+}
+
 .logoMarca {
     width: 20%;
     border-radius: 50%;
     border: 1px solid black;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .logoMarca {
+        border: none;
+        box-shadow: 0px 9px 9px -1px rgba(0,0,0,0.53);
+    }
 }
 
 .logoMarca:hover {
@@ -39,6 +59,12 @@ main h2 {
     margin-top: 2%;
 }
 
+@media (min-width: 360px) and (max-width: 768px) {
+    main h2 {
+        font-size: .9em;
+    }
+}    
+
 .imagenes {
     display: none;
 }
@@ -48,9 +74,28 @@ main h2 {
     padding: 2%;
 }
 
+@media (min-width: 360px) and (max-width: 768px) {
+    .producto {
+        width: 100%;
+        padding: 5%;
+    }
+}
+
 .active {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+    .seleccionado {
+        border: 2px solid #7BB3BB;
+    }
 }

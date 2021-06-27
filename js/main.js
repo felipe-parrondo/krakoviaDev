@@ -6,30 +6,38 @@ const imagenesAfrica = document.getElementById('imagenesAfrica');
 const imagenesCofradia = document.getElementById('imagenesCofradia');
 const imagenesCamaron = document.getElementById('imagenesCamaron');
 const imagenesPaparazo = document.getElementById('imagenesPaparazo');
-let arrayImagenes = [imagenesAfrica, imagenesCamaron, imagenesCofradia, imagenesPaparazo];
+let imagenes = [imagenesAfrica, imagenesCamaron, imagenesCofradia, imagenesPaparazo];
+let botones = [botonAfrica, botonCofradia, botonCamaron, botonPaparazo]
 
 function ocultar() {
-    arrayImagenes.forEach((element) => {
+    imagenes.forEach((element) => {
         element.classList.remove('active')
+    })
+    botones.forEach((element) => {
+        element.classList.remove('seleccionado')
     })
 }
 
 botonAfrica.addEventListener('click', () => {
     ocultar()
     imagenesAfrica.classList.add('active')
+    botonAfrica.classList.add('seleccionado')
 })
 
 botonCofradia.addEventListener('click', () => {
     ocultar()
     imagenesCofradia.classList.add('active')
+    botonCofradia.classList.add('seleccionado')
 })
 
 botonCamaron.addEventListener('click', () => {
     ocultar()
     imagenesCamaron.classList.add('active')
+    botonCamaron.classList.add('seleccionado')
 })
 
 botonPaparazo.addEventListener('click', () => {
     ocultar()
     imagenesPaparazo.classList.add('active')
+    botonPaparazo.classList.add('seleccionado')
 })
