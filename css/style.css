@@ -86,10 +86,8 @@ body {
         color: #FFFFFF;
         background-color: #000000;
         font-size: small;
-        border-radius: 10px;
-        position: absolute;
-        left: 35%;
-        top: 49%;
+        border-radius: 0px;
+        position: static;
         display: flex;
         justify-content: center;
         align-items: center;
