@@ -17,10 +17,19 @@ body {
 }
 
 .navbar .logo {
-    width: 11.5vw;
+    width: auto;
     height: 18vh; 
     margin-left: 10%;
     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .navbar .logo {
+        width: auto;
+        height: 12vh; 
+        margin-left: 10%;
+        object-fit: cover;
+    }
 }
 
 .navbar ul {
@@ -61,6 +70,40 @@ body {
     font-style: normal;
     font-weight: normal;
     line-height: 37px;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+
+    .imagenIndex {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .botonComprar {
+        width: auto;
+        height: 7vh;
+        color: #FFFFFF;
+        background-color: #000000;
+        font-size: small;
+        border-radius: 10px;
+        position: absolute;
+        left: 35%;
+        top: 49%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .botonComprar h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 32px;
+        font-size: small;
+        margin-top: auto;
+    }
 }
 
 /* Footer */

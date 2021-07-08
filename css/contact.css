@@ -6,6 +6,9 @@
     flex-grow: 0.5;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: 3;
 }
 
 #imgContainer {
@@ -17,6 +20,7 @@
     flex-grow: 0.5;
     margin: 0;
     padding: 0;
+    padding-bottom: 2vh;
 }
 
 #imgContainer img {
@@ -36,8 +40,91 @@
     align-items: center;
     width: auto;
     flex-grow: 0.5;
+    padding-bottom: 2vh;
 }
 
 #mapContainer iframe {
     margin-bottom: 1vh;
+    height: 100%;
+    width: 80%;
+}
+
+.background {
+    width: 100%;
+    height: 50vh;
+    background-color: #000000;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    position: absolute;
+    z-index: 0;
+}
+
+@media (max-width: 768px) {
+
+    #contactContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 70vh;
+        flex-grow: 0.5;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        object-fit: cover;
+        position: absolute;
+        z-index: 3;
+    }
+    
+    #imgContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        flex-grow: 0.5;
+        padding-bottom: 8vh;
+        margin-bottom: 1vh;
+        margin-top: 10vh;
+        margin-left: 5vh;
+        margin-right: 5vh;
+    }
+
+    #imgContainer span {
+        font-size: small;
+    }
+    
+    #imgMain {
+        max-height: auto;
+        max-width: 70%;
+        display: block;
+    }
+    
+    #mapContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        flex-grow: 0.5;
+        padding-bottom: 2vh;
+    }
+
+    #mapContainer span {
+        font-size: small;
+    }
+    
+    #mapContainer iframe {
+        margin-bottom: 1vh;
+        height: auto;
+        width: 70%;
+    }
+    
+    .background {
+        width: 100%;
+        height: 50vh;
+        background-color: transparent;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        position: absolute;
+        z-index: 0;
+    }
 }
